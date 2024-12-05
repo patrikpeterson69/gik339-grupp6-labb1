@@ -1,6 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello Page</title>
@@ -10,28 +12,29 @@
         <h1>Labb 1 - Grupp 6</h1>
     </header>
     <main>
-        
         <form action="/action_page.php">
-            <div>
-                <p>sdfgdfg</p>
-            </div>
+
             <label for="color">Färg</label><br>
 
             <input type="text" id="color" name="color" class="textfield"><br>
 
             <label for="innehåll">Innehåll</label><br>
 
-            <input type="text" id="content" name="content" class="textfield"><br><br>
+            <input type="text" id="content" name="content" class="textfield"><br>
 
-            <input type="checkbox" id="divStyle" name="divStyle" class="checkbox">
+            <label for="boxStyle">Stil på box</label>
 
-            <label for="boxStyle">Stil på box</label><br>
+            <input type="checkbox" id="divStyle" name="divStyle" class="checkbox"><br>
 
-            <input type="submit" value="Ta bort">
-
+            <button type="button" id="button"> Ta bort</button>
+            
+            <div id="output">
+                div som egentligen ska vara tom
+            </div>
           </form>
     </main>
     <footer>
+        <p1></p1>
     </footer>
 </body>
 </html>
