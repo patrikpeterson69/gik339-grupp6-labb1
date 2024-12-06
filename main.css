@@ -1,0 +1,40 @@
+header{
+    color: rgb(12, 247, 110);
+    background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmVheXRtcG1rYXY0NmhwMjgzZWhwMnJ0OWtyd29veGx1c2p6dGJsbSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/rCxogJBzaeZuU/giphy.gif);
+    background-position: right top, left top;
+    background-repeat: no-repeat, repeat;
+    margin: auto;
+    padding: 0%;
+    height: 20vh;
+    overflow: hidden;
+}
+
+body{
+    background-color:rgb(82, 82, 245);
+    margin: auto;
+    padding: 0px;
+    overflow: hidden;
+}
+
+main{
+    background-color:rgb(23, 23, 121);
+    margin: auto;
+    padding: 0px;
+    overflow: hidden;
+    position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    height: 25vh;
+    flex-direction: column;
+    display: flex;
+    flex-grow:initial;
+}
+
+p,label{
+    color: white;
+}
+

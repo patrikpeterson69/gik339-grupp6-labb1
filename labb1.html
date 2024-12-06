@@ -3,35 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Page</title>
+    <link rel="stylesheet" href="main.css">
+    <title>Grupp 6</title>
 </head>
 <body>
     <header>
-        <h1>Labb 1 - Grupp 6</h1>
+        <h1>Labboration 1</h1>
     </header>
     <main>
-        
-        <form action="/action_page.php">
-            <div>
-                <p>sdfgdfg</p>
-            </div>
-            <label for="color">Färg</label><br>
+        <form>
+            <label for="color">Färg</label>
 
-            <input type="text" id="color" name="color" class="textfield"><br>
+            <input type="text" id="color" name="color" class="textfield">
 
-            <label for="innehåll">Innehåll</label><br>
+            <label for="innehåll">Innehåll</label>
 
-            <input type="text" id="content" name="content" class="textfield"><br><br>
+            <input type="text" id="content" name="content" class="textfield">
+
+            <label for="boxStyle">Stil på box</label>
 
             <input type="checkbox" id="divStyle" name="divStyle" class="checkbox">
 
-            <label for="boxStyle">Stil på box</label><br>
-
-            <input type="submit" value="Ta bort">
-
+            <button type="button" id="button"> Ta bort</button>
+            
+            <div id="output"></div>
           </form>
     </main>
     <footer>
+        <script src="script.js"></script>
+        <p>Zacharias Andersson & Patrik Peterson </p>
     </footer>
 </body>
 </html>
