@@ -14,7 +14,7 @@ function handleClick(e) {
   console.log(`Fält med ID ${targetName} klickades.`);
   console.log("handleClick, eventobj: ", e.target);
 }
-
+   
 // Funktion för att hantera blur-event och skriva ut hela strängen
 function handleBlur(e) {
   const name = e.target.name;
