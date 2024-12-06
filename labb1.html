@@ -2,29 +2,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="body" style="background-color: aqua;">
     <header>
         <h1>Labb 1 - Grupp 6</h1>
     </header>
-    <main>
-        <form action="/action_page.php">
+    <main class="grid-container">
+        <form id="settings">
 
-            <label for="color">Färg</label><br>
+            <label for="color">Färg</label>
 
-            <input type="text" id="color" name="color" class="textfield"><br>
+            <input type="text" id="color" name="color" class="textfield">
 
-            <label for="innehåll">Innehåll</label><br>
+            <label for="innehåll">Innehåll</label>
 
-            <input type="text" id="content" name="content" class="textfield"><br>
+            <input type="text" id="content" name="content" class="textfield">
 
             <label for="boxStyle">Stil på box</label>
 
-            <input type="checkbox" id="divStyle" name="divStyle" class="checkbox"><br>
+            <input type="checkbox" id="divStyle" name="divStyle" class="checkbox">
 
             <button type="button" id="button"> Ta bort</button>
             
@@ -37,4 +37,5 @@
         <p1></p1>
     </footer>
 </body>
+<script src="script.js" defer></script>
 </html>
